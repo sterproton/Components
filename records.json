@@ -1,0 +1,197 @@
+{
+  "html-webpack-plugin for \"index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/template/index.html": 0,
+          "node_modules/lodash/lodash.js": 1,
+          "node_modules/webpack/buildin/global.js": 2,
+          "node_modules/webpack/buildin/module.js": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/src/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/index.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/src/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/index.scss": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/src/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/global.scss": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/src/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/global.scss": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "node_modules/prop-types/index.js": 0,
+      "node_modules/react/index.js": 1,
+      "node_modules/history/node_modules/warning/browser.js": 2,
+      "node_modules/invariant/browser.js": 3,
+      "node_modules/warning/warning.js": 4,
+      "node_modules/redux/es/redux.js": 5,
+      "node_modules/history/es/index.js 07fa0e6b0a6cfdd0c7153292bc4a1c1b": 6,
+      "node_modules/react-router/node_modules/path-to-regexp/index.js": 7,
+      "node_modules/react-redux/es/index.js 1fd5ef49d9a665a98cb619998aa64faa": 8,
+      "node_modules/react-is/index.js": 9,
+      "node_modules/symbol-observable/es/index.js": 10,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Test.jsx": 11,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Lazy.jsx": 12,
+      "node_modules/object-assign/index.js": 13,
+      "node_modules/react-dom/index.js": 14,
+      "node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js": 15,
+      "node_modules/symbol-observable/es/ponyfill.js": 16,
+      "node_modules/react-loadable/lib/index.js": 17,
+      "node_modules/redux-thunk/es/index.js": 18,
+      "node_modules/react/cjs/react.production.min.js": 19,
+      "node_modules/react-dom/cjs/react-dom.production.min.js": 20,
+      "node_modules/scheduler/index.js": 21,
+      "node_modules/scheduler/cjs/scheduler.production.min.js": 22,
+      "node_modules/prop-types/factoryWithThrowingShims.js": 23,
+      "node_modules/prop-types/lib/ReactPropTypesSecret.js": 24,
+      "node_modules/react-is/cjs/react-is.production.min.js": 25,
+      "node_modules/webpack/buildin/global.js": 26,
+      "node_modules/webpack/buildin/harmony-module.js": 27,
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/src/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/index.scss": 28,
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--8-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js??ref--8-2!node_modules/postcss-loader/src/index.js??ref--8-3!node_modules/sass-loader/lib/loader.js!src/assets/scss/global.scss": 29,
+      "node_modules/react-router/node_modules/isarray/index.js": 30,
+      "node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/index.jsx 2365ad3b4f664072482eea038d89554c": 31,
+      "node_modules/react-router-dom/es/index.js": 32,
+      "node_modules/react-router-dom/es/Link.js": 33,
+      "node_modules/react-router-dom/es/Redirect.js f14394c3d6fbdae9f13285c17c03e1a6": 34,
+      "node_modules/react-router-dom/es/Route.js 5a4ce29be2b98869d20494fce8440678": 35,
+      "node_modules/react-router-dom/es/BrowserRouter.js f3f02e721c650750d259d19b1bdb4a02": 36,
+      "node_modules/react-router-dom/es/HashRouter.js": 37,
+      "node_modules/react-router-dom/es/MemoryRouter.js": 38,
+      "node_modules/react-router-dom/es/NavLink.js": 39,
+      "node_modules/react-router-dom/es/Prompt.js": 40,
+      "node_modules/react-router-dom/es/StaticRouter.js": 41,
+      "node_modules/react-router-dom/es/Switch.js": 42,
+      "node_modules/react-router-dom/es/generatePath.js": 43,
+      "node_modules/react-router-dom/es/matchPath.js": 44,
+      "node_modules/react-router-dom/es/withRouter.js": 45,
+      "node_modules/react-router/es/MemoryRouter.js": 46,
+      "node_modules/react-router/es/Prompt.js": 47,
+      "node_modules/react-router/es/StaticRouter.js": 48,
+      "node_modules/react-router/es/Switch.js": 49,
+      "node_modules/react-router/es/withRouter.js": 50,
+      "node_modules/react-router/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js": 51
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "27": 27,
+      "28": 28,
+      "29": 29,
+      "30": 30,
+      "31": 31,
+      "32": 32,
+      "33": 33,
+      "34": 34,
+      "35": 35,
+      "36": 36,
+      "37": 37,
+      "38": 38,
+      "39": 39,
+      "40": 40,
+      "41": 41,
+      "42": 42,
+      "43": 43,
+      "44": 44,
+      "45": 45,
+      "46": 46,
+      "47": 47,
+      "48": 48,
+      "49": 49,
+      "50": 50,
+      "51": 51
+    }
+  },
+  "chunks": {
+    "byName": {
+      "js/index": 0,
+      "js/public/vender": 1,
+      "manifest": 2
+    },
+    "bySource": {
+      "0 node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/components/Home.jsx ./Lazy.jsx": 3,
+      "0 node_modules/babel-loader/lib/index.js!node_modules/eslint-loader/index.js!src/router/router.jsx ../components/Test.jsx": 4
+    },
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}
