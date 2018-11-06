@@ -1,8 +1,6 @@
 import React from 'react'
 import reactDom from 'react-dom'
-import { Provider } from 'react-redux'
-import Route from './router/router'
-import store from './redux/store'
+import App from './components/App'
 
 const app = document.getElementById('app')
 
@@ -11,7 +9,4 @@ if (module.hot) {
   module.hot.accept()
 }
 
-reactDom.render(
-  <Provider store={store}>
-    <Route />
-  </Provider>, app)
+reactDom.render(<App />, app)

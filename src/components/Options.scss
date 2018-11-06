@@ -1,0 +1,10 @@
+.option-container{
+  ul{
+    li{
+      padding-left: 10px;
+      &:hover{
+        background-color: grey;
+      }
+    }
+  }
+}
